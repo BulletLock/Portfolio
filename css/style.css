@@ -87,7 +87,7 @@ dislpay: flex is used here for responsiveness
 /* box shadow is apllied for better look */
 .work-tile {
     box-shadow: 5px 4px 8px 0px rgba(120,113,120,1);
-    margin: 5% auto;
+    margin: 20px auto;
     width: 80%;
 }
 
@@ -155,35 +155,35 @@ Styling for width > 768px
     .one {
         order: 1;
         width: 35%;
-        margin: 5% 10%;
+        margin: 20px 10%;
     }
     
     .two {
-        margin: 5% 0%;
+        margin: 20px 0%;
         order: 2;
         width: 35%;
     }
     
     .three {
-        margin: 5% 10%;
+        margin: 20px 10%;
         order: 3;
         width: 35%;
     }
     
     .four {
-        margin: 5% 0;
+        margin: 20px 0;
         order: 4;
         width: 35%;
     }
     
     .five {
-        margin: 5% 10%;
+        margin: 20px 10%;
         order: 5;
         width: 35%;
     }
     
     .six {
-        margin: 5% 0;
+        margin: 20px 0;
         order: 6;
         width: 35%;
     }
@@ -223,35 +223,35 @@ Styling for width > 1024px
     .one {
         order: 1;
         width: 20%;
-        margin: 5% 0 5% 10%;
+        margin: 40px 0 40px 10%;
     }
     
     .two {
-        margin: 5% 0 5% 10%;
+        margin: 40px 0 40px 10%;
         order: 2;
         width: 20%;
     }
     
     .three {
-        margin: 5% 5% 5% 10%;
+        margin: 40px 5% 40px 10%;
         order: 3;
         width: 20%;
     }
     
     .four {
-        margin: 5% 0 5% 10%;
+        margin: 40px 0 40px 10%;
         order: 4;
         width: 20%;
     }
     
     .five {
-        margin: 5% 0 5% 10%;
+        margin: 40px 0 40px 10%;
         order: 5;
         width: 20%;
     }
     
     .six {
-        margin: 5% 0 5% 10%;
+        margin: 40px 0 40px 10%;
         order: 6;
         width: 20%;
     }
