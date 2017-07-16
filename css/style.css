@@ -1,0 +1,258 @@
+/*CSS styling for portfolio website */
+
+/*
+*******
+Normal styling which remain same for every device
+*******
+*/
+
+body {
+    font-family: Roboto;
+    color: #2d3c49;
+}
+
+header, footer, section, article, div {
+    box-sizing: border-box;
+}
+
+/*
+******
+Header
+******
+*/
+
+header {
+    border-bottom: 2px solid #7d97ad;
+    margin: auto;
+    width: 90%;
+}
+
+.header img {
+    height: 85px;
+    margin: 0.5em;
+    vertical-align: top;
+    width: 70px;
+}
+
+.header-text {
+    float: right;
+    margin: auto;
+    text-align: right;
+}
+
+.header-text p {
+    display: inline;
+    vertical-align: top;
+}
+
+.header-name {
+    margin-bottom: 0;
+    font-size: 2em;
+}
+
+/*
+*******
+Main Image - that is larger image below header
+*******
+*/
+
+.big-image img {
+    height: auto;
+    margin: 5%;
+    width: 90%;
+}
+
+/*
+*********
+Styling for featured work
+dislpay: flex is used here for responsiveness
+*********
+*/
+
+.featured-work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+.featured-work h2 {
+    width: 100%;
+    color: #7d97ad;
+    text-align: left;
+    width: 80%;
+    margin:auto;
+}
+
+/* box shadow is apllied for better look */
+.work-tile {
+    box-shadow: 5px 4px 8px 0px rgba(120,113,120,1);
+    margin: 5% auto;
+    width: 80%;
+}
+
+.work-tile img {
+    height: 250px;
+    width: 100%;
+}
+
+.work-tile h4 {
+    padding: 5%;
+}
+
+/*
+******
+Styling for width > 768px
+******
+*/
+
+@media screen and (min-width: 768px) {
+    
+    /*
+    ******
+    Header
+    ******
+    */
+    header {
+        border-bottom: 5px solid #7d97ad;
+        width: 80%;
+    }
+
+    .header img {
+        height: 110px;
+        margin: 1em;
+        width: 100px;
+    }
+    
+    .header-text p {
+        font-size: 1.5em;
+    }
+    
+    .header-name {
+        font-size: 3em;
+    }
+    
+    /*
+    *******
+    Main Image - that is larger image below header
+    *******
+    */
+
+    .big-image img {
+        height: 400px;
+        margin: 5% 10%;
+        width: 80%;
+    }
+    
+    /*
+    ********
+    Featured work
+    Items are rearranged when width > 768px
+    this is done using flex display order property 
+    ********
+    */
+    
+    .one {
+        order: 1;
+        width: 35%;
+        margin: 5% 10%;
+    }
+    
+    .two {
+        margin: 5% 0%;
+        order: 2;
+        width: 35%;
+    }
+    
+    .three {
+        margin: 5% 10%;
+        order: 3;
+        width: 35%;
+    }
+    
+    .four {
+        margin: 5% 0;
+        order: 4;
+        width: 35%;
+    }
+    
+    .five {
+        margin: 5% 10%;
+        order: 5;
+        width: 35%;
+    }
+    
+    .six {
+        margin: 5% 0;
+        order: 6;
+        width: 35%;
+    }
+}
+
+/*
+******
+Styling for width > 1024px
+******
+*/
+
+@media screen and (min-width: 1024px) {
+    
+    /*
+    ******
+    Featured work
+    ******
+    */
+    
+    .work-tile img {
+        height: 200px;
+        width: 100%;
+    }
+    
+    .featured-work h2{
+        font-size: 3em;
+    }
+    
+    /*
+    ********
+    Featured work
+    Items are rearranged when width > 1024px
+    this is done using flex display order property 
+    ********
+    */
+    
+    .one {
+        order: 1;
+        width: 20%;
+        margin: 5% 0 5% 10%;
+    }
+    
+    .two {
+        margin: 5% 0 5% 10%;
+        order: 2;
+        width: 20%;
+    }
+    
+    .three {
+        margin: 5% 5% 5% 10%;
+        order: 3;
+        width: 20%;
+    }
+    
+    .four {
+        margin: 5% 0 5% 10%;
+        order: 4;
+        width: 20%;
+    }
+    
+    .five {
+        margin: 5% 0 5% 10%;
+        order: 5;
+        width: 20%;
+    }
+    
+    .six {
+        margin: 5% 0 5% 10%;
+        order: 6;
+        width: 20%;
+    }
+}
