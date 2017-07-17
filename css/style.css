@@ -11,7 +11,11 @@ body {
     color: #2d3c49;
 }
 
-header, footer, section, article, div {
+header,
+footer,
+section,
+article,
+div {
     box-sizing: border-box;
 }
 
@@ -92,12 +96,32 @@ dislpay: flex is used here for responsiveness
 }
 
 .work-tile img {
-    height: 250px;
+    height: auto;
+    max-height: 250px;
     width: 100%;
 }
 
 .work-tile h4 {
     padding: 5%;
+}
+
+/*
+******
+Footer
+******
+*/
+footer {
+    height: 50px;
+    margin: auto;
+    padding-top: 1%;
+    width: 80%;
+    text-align: center;
+    border-top: 3px solid #7d97ad;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2d3c49;
 }
 
 /*
